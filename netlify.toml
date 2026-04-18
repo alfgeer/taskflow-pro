@@ -1,8 +1,7 @@
 # Netlify Build Configuration
 
 [build]
-  publish = "public"
-  command = "echo 'Static site — no build needed'"
+  publish = "."
 
 [[headers]]
   for = "/*"
